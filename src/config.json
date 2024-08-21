@@ -1,0 +1,13 @@
+{
+    "ruta_logs": "C:\\logs\\Tipificar_Orange_F1\\Tipificar_Orange_F1_",
+    "url":"https://fichadecliente.si.orange.es",
+    "Server": "10.148.92.18\\SQLEXPRESS",
+    "Database":"RPA_101C0224A",
+    "usuarioBBDD" : "AdminDesarrollo",
+    "PasswordBBDD" : "DevAdmin2022!",
+    "tcon" : "yes",
+    "user1":"Mmfcps09",
+    "pass1":"8vw3wYL#B7z/Aux",
+    "user2":"MMFCPS04",
+    "pass2":"owEC?hu9Dxim"
+}

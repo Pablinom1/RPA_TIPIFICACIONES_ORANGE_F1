@@ -1,0 +1,24 @@
+from selenium import webdriver
+from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.edge.options import Options as EdgeOptions
+ 
+# Ruta al EdgeDriver
+edge_driver_path = 'C:\\Users\\RPARPRO03\Documents\\Python\RPA_TIPIFICACIONES_ORANGE_F1\\resources\\drivers\\edgedriver_win32\\msedgedriver.exe'
+ 
+# Configuración de opciones para Edge
+edge_options = EdgeOptions()
+edge_options.add_argument('--start-maximized')  # Abrir la ventana maximizada
+ 
+# Crear una instancia del servicio de Edge
+edge_service = EdgeService(executable_path=edge_driver_path)
+ 
+# Iniciar el navegador Edge
+driver = webdriver.Edge(service=edge_service, options=edge_options)
+ 
+# Acceder a una página web
+driver.get('https://google.com')
+# Navegar a la página deseada
+driver.maximize_window()
+
+
+    
